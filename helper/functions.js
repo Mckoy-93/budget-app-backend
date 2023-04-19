@@ -11,7 +11,7 @@ const filteredTransactions = (requestQuery, transaction, test) => {
       }
     }
     return test;
-    // http://localhost:3333/transactions?order=&=type=
+    
   };
   
   const sort = (transactions, selection) => {

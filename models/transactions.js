@@ -1,6 +1,7 @@
-const { v4 } = require('uuid');
+//const { v4 } = require('uuid');
 
-const transactions = [
+//const transactions = [
+  module.exports = [
     {
       id: "",
       date: "2019-04-01",
@@ -93,6 +94,6 @@ const transactions = [
     },
   ];
 
-  transactions.forEach((transaction) => transaction.id = v4())
+  //transactions.forEach((transaction) => transaction.id = v4())
 
-  module.exports = transactions;
+  //module.exports = transactions;
