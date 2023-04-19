@@ -4,7 +4,7 @@ const transactionsRouter = express.Router();
 
 //FILES
 const transactions = require("../models/transactions");
-const { filteredTransactions, sort, isValid } = require("../helpers/functions");
+const { filteredTransactions, sort, isValid } = require("../helper/functions");
 
 //ROUTES
 
